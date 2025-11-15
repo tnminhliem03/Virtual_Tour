@@ -35,9 +35,10 @@ function BottomNavBase({
         backgroundColor: colorPrimary,
         position: "fixed",
         left: "50%",
-        bottom: 4.5,
+        bottom: 0,
         transform: open ? "translate(-50%, -35%)" : "translate(-50%, 100%)",
         transition: `transform ease 0.3s`,
+        py: 1.5,
 
         "& .Mui-selected": {
           filter: dropShadowSize,
